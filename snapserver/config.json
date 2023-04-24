@@ -1,6 +1,6 @@
 {
   "name": "Snapcast Server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "slug": "snapserver",
   "description": "Snapcast server with librespot support",
   "url": "https://github.com/enlight3d/hassio-snapserver-addon",

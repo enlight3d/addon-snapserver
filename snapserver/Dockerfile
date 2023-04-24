@@ -21,6 +21,11 @@ RUN apk add --no-cache \
 # Copy root filesystem
 COPY rootfs /
 
+RUN chmod a+x /etc/cont-init.d/folders.sh
+RUN chmod a+x /etc/cont-init.d/snapcast.sh
+RUN chmod a+x /etc/services.d/snapcast/finish
+RUN chmod a+x /etc/services.d/snapcast/run
+
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
